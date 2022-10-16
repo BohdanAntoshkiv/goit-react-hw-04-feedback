@@ -20,6 +20,6 @@ export class FeedbackOptions extends Component {
   }
 }
 
-FeedbackOptions.PropTypes = {
+FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
